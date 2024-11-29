@@ -32,6 +32,8 @@ def puzzles(puzzleName):
         return """A woman opened a door, screamed and was found dead a few minutes later. 
         No gunshots were heard in the area. 
         What happened to her?"""
+    elif puzzleName =="Twopill":
+        return """A man is given two pills, one poisonous, and one not. He must take one, but whichever pill he takes, he will die. How?"""
     else:
         return """Four men, one of whom was known to have committed a certain crime, 
         made the following statements when questioned by the police:
